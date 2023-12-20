@@ -1,0 +1,129 @@
+:root{
+    --color:#363062;
+    --back-color:#435585;
+    --review-color:#f3f3f3;
+    --color-text:#fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #363062;
+    color: var(--color-text);
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+section {
+    padding: 20px;
+    max-width: 1090px;
+}
+tovar{
+
+}
+.review{
+    background-color: var(--review-color);
+    margin-top: 10px;
+    border-radius: 130px 100px 10px 210px;
+}
+.name{
+    margin-top: -45px;
+    margin-left: 100px;
+    text-justify: ;
+}
+.feedback{
+    margin-left: 110px
+}
+img{
+    width: 64px;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+progress{
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+footer {
+    background-color: #435585;
+    color: var(--color-text);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%-10px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #818FB4;
+    color: var(--color-text);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Модальное окно */
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+#modalContent {
+    background-color: var(--color);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#modal button {
+    background-color: #333;
+    color: var(--color);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.no_work{
+    width: 300px;
+    display: flex;
+}
